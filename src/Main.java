@@ -34,9 +34,13 @@ public class Main {
         // Text Block - as a string WeatherReport (Formatted)
         String WeatherReport = """
                 Weather Report:
+                ---------------
                 %s
+                ---------------
                 %s
+                ---------------
                 %s
+                ---------------
                 """.formatted(
                         AvgMonthTempProcessed.process(WeatherDataList),
                 CurrentTempProcessed.process(WeatherDataList),
